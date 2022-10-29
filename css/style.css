@@ -1,2 +1,38 @@
+/*_*_*_*_*_*_*_*_*_*|*_*_*_*_*_*_*_*_*_*/
+/*                BASE                 */
+/*_*_*_*_*_*_*_*_*_*|*_*_*_*_*_*_*_*_*_*/
+
 @import url("./normalize.css");
 @import url("./base.css");
+
+:root {
+    --blue: #2494A0;
+    --dark-bkue: #354b5e;
+}
+
+html {
+    font-family: 'Varela Round', sans-serif;
+}
+
+h2 {
+    font-family: 'Allerta Stencil', sans-serif;
+    font-size: 35px;
+    color: var(--dark-bkue);
+    padding: 8px;
+}
+
+h2 strong {
+    border-bottom: solid 2px;
+}
+
+/*_*_*_*_*_*_*_*_*_*|*_*_*_*_*_*_*_*_*_*/
+/*           GLOBAL CLASSES            */
+/*_*_*_*_*_*_*_*_*_*|*_*_*_*_*_*_*_*_*_*/
+
+
+
+/*_*_*_*_*_*_*_*_*_*|*_*_*_*_*_*_*_*_*_*/
+/*                PAGES                */
+/*_*_*_*_*_*_*_*_*_*|*_*_*_*_*_*_*_*_*_*/
+
+
