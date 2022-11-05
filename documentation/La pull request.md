@@ -2,7 +2,7 @@
 
 ## Qu'est-ce que c'est ?
 
-La pull request, ou PR en abréviation, est une méthode de communication et de vérification d'un travail avant de le fusionner avec le reste d'un projet utilisant git et Github. Pour cela, il faut disposer de deux éléments essentiels : une branche principale sur lequel se trouve l'ensemble du travail existant, et une seconde branche créée et utilisée exclusivement pour une tâche à réaliser.
+La pull request, ou PR en abréviation, est une méthode de communication et de vérification d'un travail avant de le fusionner avec le reste d'un projet utilisant git et Github. Pour cela, il faut disposer de deux éléments essentiels : une branche principale sur laquelle se trouve l'ensemble du travail existant, et une seconde branche créée et utilisée exclusivement pour une tâche à réaliser.
 Nous pouvons retrouver un mécanisme similaire sur Gitlab avec les "merge request" ou MR.
 
 ## À quoi ça sert ?
@@ -11,11 +11,11 @@ Comme cité ci-dessus, une pull request permet de faire une requête afin d'appo
 
 ## Pourquoi s'en servir ?
 
-La pull request a de nombreux avantages, voilà pourquoi il est conseillé de s'en servir dans un projet de développement ; particulièrement si le projet possède plusieurs contributeurs.
+La pull request a de nombreux avantages, voilà pourquoi il est conseillé de s'en servir dans un projet de développement ; particulièrement, si le projet possède plusieurs contributeurs.
 
 ### 1. Gestion du travail réalisé
 
-Github met à disposition un système de rôle avec permissions afin de gérer le projet, qu'il soit public ou privé. Cela a pour avantage de réguler le travail réaliser : pouvoir accepter ou refuser une pull request. Ceci est très pratique dans les projets open sources : tout le monde peut contribuer au projet pour le faire évoluer en soumettant leur travail via une PR; puis la personne disposant des permissions décide d'accepter le travail ou non.
+Github met à disposition un système de rôle avec permissions afin de gérer le projet, qu'il soit public ou privé. Cela a pour avantage de réguler le travail réalisé : pouvoir accepter ou refuser une pull request. Ceci est très pratique dans les projets open sources : tout le monde peut contribuer au projet pour le faire évoluer en soumettant leur travail via une PR ; puis la personne disposant des permissions décide d'accepter le travail ou non.
 Pour résumer, la PR permet de laisser tout le monde travailler sur le projet tout en s'assurant que rien n'est nocif pour ce dernier.
 
 ### 2. Forum de discutions
@@ -29,7 +29,7 @@ Une fois la pull request créée, elle affiche l'ensemble des changements et des
 
 ### 4. Tenir au courant
 
-Lors d'un travail en équipe, les informations ne circulent pas tout le temps. Réaliser une pull request permet de notifier les collaborateurs qu'un nouveau travail vient d'être réalisé. Ainsi, l'ensemble de l'équipe se tient au courant sans forcément en tenir compte (c'est-à-dire qu'ils ne sont pas obligés de faire le "reviewer"). Chaque équipe s'organise comme il le souhaite.
+Lors d'un travail en équipe, les informations ne circulent pas tout le temps. Réaliser une pull request permet de notifier les collaborateurs qu'un nouveau travail vient d'être réalisés. Ainsi, l'ensemble de l'équipe se tient au courant sans forcément en tenir compte (c'est-à-dire qu'ils ne sont pas obligés de faire le "reviewer"). Chaque équipe s'organise comme il le souhaite.
 
 ### 5. Historique de travail
 
@@ -63,7 +63,7 @@ En rouge ce qu'il y a été enlevé et en vert apporté
 
 ## Conclusion
 
-Nous avons observé les différentes fonctionnalités que propose une pull request. Elle permet d'informer l'équipe de collaboration d'un nouveau travail réaliser et de donner un feedback sur ce dernier ; tout en l'acceptant ou non.
+Nous avons observé les différentes fonctionnalités que propose une pull request. Elle permet d'informer l'équipe de collaboration d'un nouveau travail réalisé et de donner un feedback sur ce dernier ; tout en l'acceptant ou non.
 
 ## Sources
 
