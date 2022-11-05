@@ -136,6 +136,79 @@ header nav ul #navbar-brand-li {
 }
 
 /*_*_*_*_*_*_*_*_*_*|*_*_*_*_*_*_*_*_*_*/
+/*                FOOTER                */
+/*_*_*_*_*_*_*_*_*_*|*_*_*_*_*_*_*_*_*_*/
+
+/********** FOOTER **********/
+
+footer {
+	background-color: var(--dark-blue);
+	color: white;
+	text-align: center;
+	padding: 40px;
+}
+
+footer h2 {
+	font-family: "raleway", sans-serif;
+	color: white;
+	font-size: 18px;
+}
+
+footer #links {
+	margin-bottom: 32px;
+}
+
+footer #link-list li {
+	display: inline;
+}
+
+footer #contact-information {
+	margin-bottom: 32px;
+}
+
+footer #contact-information a {
+	display: block;
+}
+
+footer #social-list {
+	font-size: 32px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	column-gap: 16px;
+}
+
+footer #copyright {
+	margin-top: 32px;
+}
+
+@media screen and (min-width: 992px) {
+	footer {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-wrap: wrap;
+	}
+
+	footer section {
+		width: 33%;
+		gap: calc(33% - 16px);
+	}
+
+	footer #links {
+		margin-bottom: 0;
+	}
+
+	footer #contact-information {
+		margin-bottom: 0;
+	}
+
+	footer #copyright {
+		margin-top: 0;
+	}
+}
+
+/*_*_*_*_*_*_*_*_*_*|*_*_*_*_*_*_*_*_*_*/
 /*                ABOUT                */
 /*_*_*_*_*_*_*_*_*_*|*_*_*_*_*_*_*_*_*_*/
 
