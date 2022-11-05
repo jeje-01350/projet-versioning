@@ -1,2 +1,97 @@
+/*_*_*_*_*_*_*_*_*_*|*_*_*_*_*_*_*_*_*_*/
+/*                BASE                 */
+/*_*_*_*_*_*_*_*_*_*|*_*_*_*_*_*_*_*_*_*/
+
 @import url("./normalize.css");
 @import url("./base.css");
+
+:root {
+    --blue: #2494A0;
+    --secondary-blue: #6799A0;
+    --dark-bkue: #354b5e;
+}
+
+html {
+    font-family: 'Varela Round', sans-serif;
+    background-color: #def0f2;
+}
+
+h2 {
+    font-family: 'Allerta Stencil', sans-serif;
+    font-size: 35px;
+    color: var(--dark-bkue);
+    padding: 8px;
+}
+
+h2 strong {
+    border-bottom: solid 2px;
+}
+
+/*_*_*_*_*_*_*_*_*_*|*_*_*_*_*_*_*_*_*_*/
+/*           GLOBAL CLASSES            */
+/*_*_*_*_*_*_*_*_*_*|*_*_*_*_*_*_*_*_*_*/
+
+
+
+/*_*_*_*_*_*_*_*_*_*|*_*_*_*_*_*_*_*_*_*/
+/*                ABOUT                */
+/*_*_*_*_*_*_*_*_*_*|*_*_*_*_*_*_*_*_*_*/
+
+/********** ABOUT US **********/
+
+section#about_us ul {
+    display: flex;
+    gap: 3rem;
+    margin: 0 40rem;
+}
+
+section#about_us li {
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0s;
+}
+
+section#about_us li:hover {
+    background-color: #d2eceb;
+}
+
+section#about_us ul li.activate {
+    background-color: #d2eceb;
+}
+
+section#about_us li div {
+    background-color: var(--secondary-blue);
+    padding: 5rem;
+    border-radius: 5px;
+    position: relative;
+}
+
+section#about_us li div::after {
+    position: absolute;
+    content: '';
+    border: 15px solid var(--secondary-blue);
+    left: 50%;
+    bottom: -15px;
+    margin-left: -20px;
+    border-bottom: 0 solid transparent;
+    border-right: 20px solid transparent;
+    border-left: 20px solid transparent;
+}
+
+section#about_us li div i {
+    color: white;
+}
+
+section#about_us li h3 {
+    font-size: 24px;
+    font-weight: 400;
+    color: var(--dark-bkue);
+    padding: 3rem 0 2rem 0;
+}
+
+section#about_us li p {
+    color: #666;
+    padding: 0 5px 4rem 5px;
+    font-size: 14px;
+}
