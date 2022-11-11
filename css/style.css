@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
 /*_*_*_*_*_*_*_*_*_*|*_*_*_*_*_*_*_*_*_*/
 /*                BASE                 */
 /*_*_*_*_*_*_*_*_*_*|*_*_*_*_*_*_*_*_*_*/
@@ -15,6 +16,7 @@
 html {
 	font-family: "Varela Round", sans-serif;
 	background-color: #def0f2;
+	overflow-x: hidden;
 }
 
 h2 {
@@ -269,4 +271,35 @@ section#about_us li p {
 	color: #666;
 	padding: 0 5px 4rem 5px;
 	font-size: 14px;
+}
+/*_*_*_*_*_*_*_*_*_*|*_*_*_*_*_*_*_*_*_*_*/
+/*                SLIDER                */
+/*_*_*_*_*_*_*_*_*_*|*_*_*_*_*_*_*_*_*_*_*/
+
+#slide1{
+	background : url("../images/slider-donation.jpg");
+}
+
+#slide2{
+	background : url("../images/slider-donator.jpg");
+}
+
+#slide3{
+	background : url("../images/slider-volunteer.jpg");
+}
+
+.slide {
+	height : 80vh;
+	display : flex;
+	justify-content : center;
+}
+
+.slide h1{
+	position : absolute;
+	color : #ffffff;
+	padding : 30px 500px;
+	background : rgba(152, 168, 173, 0.43);
+	bottom : 20px;
+	font-size : 50px;
+	font-family: "Poiret One", cursive;
 }

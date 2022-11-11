@@ -16,3 +16,18 @@ NAV_BUTTON.onclick = () => {
         NAV_LIST.style.height = 0
     }
 }
+
+//Slider
+var swiper = new Swiper('.home-slider', {
+    centeredSlides: true,
+    spaceBetween: 30,
+    autoplay: {
+        delay: 7500,
+        disableOnInteraction: false,
+    },
+    pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+    },
+    loop:true
+});
