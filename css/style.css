@@ -272,6 +272,37 @@ section#about_us li p {
 	padding: 0 5px 4rem 5px;
 	font-size: 14px;
 }
+
+/********** ABOUT US IMG **********/
+
+section#about_us_img {
+	background-image: url(/images/about_img_bg.jpg);
+	padding: 10rem 0;
+	display: flex;
+	justify-content: center;
+	gap: 2.5rem;
+}
+
+section#about_us_img article {
+	background-color: rgba(230, 230, 230, 0.55);
+	max-width: 35rem;
+	padding: 2rem;
+}
+
+section#about_us_img article img {
+	width: 100%;
+}
+
+section#about_us_img article h3 {
+	color: rgb(15, 87, 127);
+	padding: 1rem 0;
+}
+
+section#about_us_img article p {
+	color: white;
+	line-height: 28px;
+}
+
 /*_*_*_*_*_*_*_*_*_*|*_*_*_*_*_*_*_*_*_*_*/
 /*                SLIDER                */
 /*_*_*_*_*_*_*_*_*_*|*_*_*_*_*_*_*_*_*_*_*/
