@@ -280,6 +280,7 @@ section#about_us_img {
 	padding: 10rem 0;
 	display: flex;
 	justify-content: center;
+	flex-wrap: wrap;
 	gap: 2.5rem;
 }
 
