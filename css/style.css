@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+/*_*_*_*_*_*_*_*_*_*|*_*_*_*_*_*_*_*_*_*/
+/*                BASE                 */
+/*_*_*_*_*_*_*_*_*_*|*_*_*_*_*_*_*_*_*_*/
+
+@import url("./normalize.css");
+@import url("./base.css");
+
+:root {
+	--blue: #2494a0;
+	--secondary-blue: #6799a0;
+	--dark-blue: #354b5e;
+	--light-cyan: #d2eceb;
+}
+
+html {
+	font-family: "Varela Round", sans-serif;
+	background-color: #def0f2;
+	overflow-x: hidden;
+}
+
+h2 {
+	font-family: "Allerta Stencil", sans-serif;
+	font-size: 35px;
+	color: var(--dark-blue);
+	padding: 8px;
+}
+
+h2 strong {
+	border-bottom: solid 2px;
+}
+
+/*_*_*_*_*_*_*_*_*_*|*_*_*_*_*_*_*_*_*_*/
+/*           GLOBAL CLASSES            */
+/*_*_*_*_*_*_*_*_*_*|*_*_*_*_*_*_*_*_*_*/
+
+/*_*_*_*_*_*_*_*_*_*|*_*_*_*_*_*_*_*_*_*/
+/*                HEADER                */
+/*_*_*_*_*_*_*_*_*_*|*_*_*_*_*_*_*_*_*_*/
+
+/********** HEADER **********/
+
+header {
+	padding: 16px;
+}
+
+header nav {
+	background: transparent;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	row-gap: 16px;
+	overflow: hidden;
+}
+
+header nav #navbar-brand {
+	text-align: center;
+}
+
+header nav #navbar-brand img {
+	max-width: 100%;
+	height: auto;
+}
+
+header nav #navbar-button {
+	background: none;
+	border: none;
+	appearance: none;
+	align-self: flex-end;
+	cursor: pointer;
+	font-size: 20px;
+}
+
+header nav ul {
+	width: 100%;
+	text-align: center;
+	height: 0;
+	transition: 0.3s all;
+}
+
+header nav ul li {
+	color: var(--blue);
+}
+
+header nav ul li:not(:last-of-type) {
+	margin-bottom: 8px;
+}
+
+header nav ul li a {
+	text-transform: uppercase;
+	font-weight: bolder;
+	font-family: "raleway", sans-serif;
+	transition: 0.3s all;
+}
+
+header nav ul li a.active {
+	color: black;
+}
+
+header nav ul li a:hover {
+	color: black;
+}
+
+header nav ul #navbar-brand-li {
+	display: none;
+}
+
+@media screen and (min-width: 992px) {
+	header nav {
+		flex-direction: row;
+	}
+
+	header nav #navbar-brand {
+		display: none;
+	}
+
+	header nav #navbar-button {
+		display: none;
+	}
+
+	header nav ul {
+		height: unset;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		column-gap: 16px;
+	}
+
+	header nav ul li:not(:last-of-type) {
+		margin-bottom: 0;
+	}
+
+	header nav ul #navbar-brand-li {
+		display: unset;
+	}
+}
+
+/*_*_*_*_*_*_*_*_*_*|*_*_*_*_*_*_*_*_*_*/
+/*                FOOTER                */
+/*_*_*_*_*_*_*_*_*_*|*_*_*_*_*_*_*_*_*_*/
+
+/********** FOOTER **********/
+
+footer {
+	background-color: var(--dark-blue);
+	color: white;
+	text-align: center;
+	padding: 40px;
+}
+
+footer h2 {
+	font-family: "raleway", sans-serif;
+	color: white;
+	font-size: 18px;
+}
+
+footer #links {
+	margin-bottom: 32px;
+}
+
+footer #link-list li {
+	display: inline;
+}
+
+footer #contact-information {
+	margin-bottom: 32px;
+}
+
+footer #contact-information a {
+	display: block;
+}
+
+footer #social-list {
+	font-size: 32px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	column-gap: 16px;
+}
+
+footer #copyright {
+	margin-top: 32px;
+}
+
+@media screen and (min-width: 992px) {
+	footer {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-wrap: wrap;
+	}
+
+	footer section {
+		width: 33%;
+		gap: calc(33% - 16px);
+	}
+
+	footer #links {
+		margin-bottom: 0;
+	}
+
+	footer #contact-information {
+		margin-bottom: 0;
+	}
+
+	footer #copyright {
+		margin-top: 0;
+	}
+}
+
+/*_*_*_*_*_*_*_*_*_*|*_*_*_*_*_*_*_*_*_*/
+/*                ABOUT                */
+/*_*_*_*_*_*_*_*_*_*|*_*_*_*_*_*_*_*_*_*/
+
+/********** ABOUT US **********/
+
+section#about_us ul {
+	display: flex;
+	gap: 3rem;
+	margin: 0 40rem;
+}
+
+section#about_us li {
+	text-align: center;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: all 0s;
+}
+
+section#about_us li:hover {
+	background-color: var(--light-cyan);
+}
+
+section#about_us ul li.activate {
+	background-color: var(--light-cyan);
+}
+
+section#about_us li div {
+	background-color: var(--secondary-blue);
+	padding: 5rem;
+	border-radius: 5px;
+	position: relative;
+}
+
+section#about_us li div::after {
+	position: absolute;
+	content: "";
+	border: 15px solid var(--secondary-blue);
+	left: 50%;
+	bottom: -15px;
+	margin-left: -20px;
+	border-bottom: 0 solid transparent;
+	border-right: 20px solid transparent;
+	border-left: 20px solid transparent;
+}
+
+section#about_us li div i {
+	color: white;
+}
+
+section#about_us li h3 {
+	font-size: 24px;
+	font-weight: 400;
+	color: var(--dark-blue);
+	padding: 3rem 0 2rem 0;
+}
+
+section#about_us li p {
+	color: #666;
+	padding: 0 5px 4rem 5px;
+	font-size: 14px;
+}
+/*_*_*_*_*_*_*_*_*_*|*_*_*_*_*_*_*_*_*_*_*/
+/*                SLIDER                */
+/*_*_*_*_*_*_*_*_*_*|*_*_*_*_*_*_*_*_*_*_*/
+
+#slide1{
+	background : url("../images/slider-donation.jpg");
+}
+
+#slide2{
+	background : url("../images/slider-donator.jpg");
+}
+
+#slide3{
+	background : url("../images/slider-volunteer.jpg");
+}
+
+.slide {
+	height : 80vh;
+	display : flex;
+	justify-content : center;
+}
+
+.slide h1{
+	position : absolute;
+	color : #ffffff;
+	padding : 30px 500px;
+	background : rgba(152, 168, 173, 0.43);
+	bottom : 20px;
+	font-size : 50px;
+	font-family: "Poiret One", cursive;
+}
