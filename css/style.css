@@ -303,3 +303,30 @@ section#about_us li p {
 	font-size : 50px;
 	font-family: "Poiret One", cursive;
 }
+
+/*_*_*_*_*_*_*_*_*_*|*_*_*_*_*_*_*_*_*_*/
+/*             BLOG | NEWS             */
+/*_*_*_*_*_*_*_*_*_*|*_*_*_*_*_*_*_*_*_*/
+
+section#blog-news {
+ 	min-height: 10vh;
+
+}
+section#blog-news h1 {
+	font-family: "Varela Round", sans-serif;
+	color: #354b5e;
+	position: relative;
+	top: 29%;
+	font-size: 35px;
+	margin-bottom: 40px;
+	margin-left: 10px;
+	font-weight: normal;
+}
+
+section#blog-news span {
+	font-family: "Varela Round", sans-serif;
+	padding: 8px;
+	font-weight: bold;
+	border-bottom: 2px solid;
+	font-size: 37px;
+}
