@@ -526,9 +526,6 @@ section#blog-card .width-blog .divider-block .block-read .editor-choice a {
 	.like-wrap {
 		padding-left: 0 !important;
 	}
-}
-
-@media screen and (max-width: 425px) {
 	.width-blog{
 		display: flex;
 		flex-direction: column ;
@@ -541,4 +538,6 @@ section#blog-card .width-blog .divider-block .block-read .editor-choice a {
 		justify-content: center;
 	}
 }
+
+
 
