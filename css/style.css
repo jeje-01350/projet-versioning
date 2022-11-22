@@ -619,4 +619,81 @@ section#blog-card .width-blog .divider-block .block-read .editor-choice a {
 		width: 300px;
 	}
 }
+/*_*_*_*_*_*_*_*_*_*|*_*_*_*_*_*_*_*_*_*_*/
+/*               CONTACT                 */
+/*_*_*_*_*_*_*_*_*_*|*_*_*_*_*_*_*_*_*_*_*/
+.contact{
+	color: #354b5e;
+}
+.contact h1 {
+	padding-left: 20px;
+	font-weight: lighter;
+}
+.contact h1 span{
+	font-weight: bold;
+	border-bottom: 2px solid;
+	padding: 8px;
+}
+.container-contact{
+	display: flex;
+}
+.container-contact .left {
+	width: 50%;
+	padding: 0 20px 0 50px;
+}
 
+.container-contact .left p,
+.container-contact .left ul li{
+	padding-bottom: 10px;
+}
+
+.container-contact .left ul{
+	padding-left: 20px;
+}
+
+.container-contact .left ul a{
+	color: #337ab7;
+}
+
+.container-contact .left ul li .fa{
+	margin-right: 20px;
+}
+
+.container-contact .right{
+	width: 50%;
+	padding-right: 20px;
+}
+
+.container-contact .right input,
+.container-contact .right textarea,
+.container-contact .right button{
+	width: 100%;
+	padding: 15px;
+	background: transparent;
+	border: 1px solid rgba(104, 171, 187, 1);
+	margin-bottom: 25px;
+	color: #68ABBB !important;
+	font-size: 13px;
+}
+.container-contact .right button {
+	color: #a9a9a9 !important;
+}
+.container-contact .right textarea{
+	height: 120px;
+}
+
+@media (max-width: 850px) {
+	.container-contact{
+		flex-direction: column;
+	}
+	.container-contact .right{
+		width: 100%;
+		padding-left: 20px;
+	}
+	.container-contact .left{
+		width: 100%;
+	}
+	.container-contact .left ul{
+		padding-left: 0;
+	}
+}
