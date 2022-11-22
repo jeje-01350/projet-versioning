@@ -688,7 +688,7 @@ section#team span {
 	margin: 10px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
 	#team-Card .row {
 		display: grid;
 		grid-template-columns: repeat(4, 1fr);
@@ -721,8 +721,10 @@ section#team span {
 	#team-Card .team4 { grid-area: 4 / 1 / 5 / 2; }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1161px) {
 	#team-Card h3 {
-		font-size: 15px;
+		font-size: 15px !important;
 	}
 }
+
+
