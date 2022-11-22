@@ -572,3 +572,51 @@ section#blog-card .width-blog .divider-block .block-read .editor-choice a {
 		justify-content: center;
 	}
 }
+
+/*_*_*_*_*_*_*_*_*_*|*_*_*_*_*_*_*_*_*_*_*/
+/*                HEADER                 */
+/*_*_*_*_*_*_*_*_*_*|*_*_*_*_*_*_*_*_*_*_*/
+
+.heading {
+	text-align: center;
+	width: 970px;
+	margin: 0 auto;
+	font-family: sans-serif;
+}
+
+.heading-icon {
+	margin-top: 79px;
+	position: relative;
+	display: inline-block;
+	border-radius: 10px;
+	padding: 20px 21px 16px;
+	-webkit-box-shadow: 0px 0px 12px 1px rgb(0 0 0 / 11%);
+	-moz-box-shadow: 0px 0px 12px 1px rgba(0,0,0,0.11);
+	box-shadow: 0px 0px 12px 1px rgb(0 0 0 / 11%);
+	color: #354b5e;
+}
+.heading h1{
+	margin-top: 20px;
+	font-size: 36px;
+	color: #354b5e;
+	font-weight: lighter;
+}
+.heading p{
+	font-size: 19px;
+	margin: 14px auto 38px;
+	padding: 0 15px;
+	line-height: 26px;
+}
+
+@media (max-width: 992px) {
+	.heading {
+		width: 760px;
+	}
+}
+
+@media (max-width: 768px) {
+	.heading {
+		width: 300px;
+	}
+}
+
