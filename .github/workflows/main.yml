@@ -18,3 +18,4 @@ jobs:
         env:
           NETLIFY_AUTH_TOKEN: NsQNqzmO1qCcwY_ynE74QkSc9zbZlsXM5U1dsUnmqII
           NETLIFY_SITE_ID: a3c4cfd3-4546-4d23-be7b-bd994a57a5f5
+          NETLIFY_LOGS_URL: https://moonlit-belekoy-c57c29.netlify.app/
