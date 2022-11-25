@@ -1,0 +1,20 @@
+on:
+  pull_request:
+    branches:
+    - master
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Start deployment
+        uses: bobheadxi/deployments@v1
+        id: deployment
+
+      # ... steps to build your site for deployment
+
+      - name: Deploy to Netlify
+        uses: South-Paw/action-netlify-cli@v1
+        id: netlify
+        env:
+          NETLIFY_AUTH_TOKEN: NsQNqzmO1qCcwY_ynE74QkSc9zbZlsXM5U1dsUnmqII
+          NETLIFY_SITE_ID: a3c4cfd3-4546-4d23-be7b-bd994a57a5f5
