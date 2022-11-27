@@ -640,8 +640,8 @@ section#blog-card .width-blog .divider-block .block-read .editor-choice a {
 /*_*_*_*_*_*_*_*_*_*|*_*_*_*_*_*_*_*_*_*/
 
 section#team h1 {
-	font-family: "Varela Round", sans-serif;
-	/*color: #354b5e;*/
+	font-family: "Allerta Stencil", sans-serif;
+	color: var(--dark-blue);
 	position: relative;
 	top: 29%;
 	font-size: 35px;
@@ -652,8 +652,9 @@ section#team h1 {
 }
 
 section#team span {
-	font-family: "Varela Round", sans-serif;
-	padding: 8px;
+	font-family: "Allerta Stencil", sans-serif;
+	padding: 0 8px;
+	color: var(--dark-blue);
 	font-weight: bold;
 	border-bottom: 2px solid;
 	font-size: 37px;

@@ -1,0 +1,3 @@
+# La grosse erreur de Mathis
+
+Lors du dernier commit pour finaliser notre projet, Mathis, lors de la Pull Request, c'est trompé de branche base sur l'interface, ce qui a impliqué que notre dernier commit, c'est transféré sur la branche "master" au lien de la branche "develop". Cependant remarquant son erreur, en voulant réouvrir la branche il a revert son commit ce qui a impliqué qu'il a perdu toutes son avancées sur la branche "#10_gallery". Afin de corriger ce problème nous avons alors supprimer la branche develop et nous l'avons récréé à partir de master...
